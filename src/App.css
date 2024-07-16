@@ -1,0 +1,103 @@
+.contenitore {
+  display: flex;
+  
+  
+
+}
+
+.contenuto {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.input {
+  margin: 5px;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+h5 {
+  font-size: medium;
+  margin: 10px;
+}
+
+.contenutoprimotutto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom:px;
+  
+}
+
+.contenutosecondotutto {
+  display: flex;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 255px;
+  background-color: rgb(180, 177, 173);;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px 10px 10px 5px;
+}
+
+.contenitore {
+  margin-left: 50px ;
+}
+
+body {
+  background-image: url('https://xmple.com/wallpaper/white-grey-gradient-linear-3840x2160-c2-ffffff-808080-a-60-f-14.svg');
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.bottone {
+  background-color: rgb(149, 111, 185);
+  border: 1px solid;
+  border-radius: 5px;
+  height: 30px;
+  color: white;
+}
+
+.contenitoreutenti {
+  width: 500px;
+  background-color:rgb(180, 177, 173);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px 
+  
+}
+
+.contenutoutenti {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(180, 177, 173);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px ;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: rgb(105, 102, 102);
+  background-color:rgb(180, 177, 173) ;
+  box-shadow: 1px 0px 20px 1px;
+}
+
+
+.paginazione{
+  display: flex;
+  justify-content: center;
+}
+
+
+.utenti li {
+  list-style-type: none;
+}
+
+.fittizio {
+  visibility: hidden;
+}
